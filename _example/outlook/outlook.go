@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package main
@@ -5,8 +6,8 @@ package main
 import (
 	"fmt"
 
-	ole "github.com/go-ole/go-ole"
-	"github.com/go-ole/go-ole/oleutil"
+	ole "github.com/FxStar/go-ole"
+	"github.com/FxStar/go-ole/oleutil"
 )
 
 func main() {
